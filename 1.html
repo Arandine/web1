@@ -3,17 +3,37 @@
   <head>
     <title> My first Webpage </title>
     <meta charset="utf-8">
+    <style>
+      .utilities{
+        text-decoration:none;
+        color:white;
+      }
+      li{
+        font-size: 25px;
+        text-align: center;
+      }
+      h1{
+        font-size: 60px;
+        text-align:center;
+      }
+    </style>
   </head>
 
-  <body>
-    <p>
-      <h1> KMLA </h1>
+  <body style="background-color:black;">
+    <h1 style="background-color:white"> <a href="1.html" style="color:black; text-decoration:none"> Sike </a> </h1>
+
+    <input type="button" value="blue" onclick="
+    document.querySelector('body').style.backgroundColor='powderblue';
+    ">
+    <input type="button" value="green" onclick="
+    document.querySelector('body').style.backgroundColor='seagreen';
+    ">
+    <p style="margin-top: 50px">
+      <ol>
+        <li> <a href="Calculator.html" class="utilities"> Calculator </li>
+          <br>
+        <li> <a href="Hong.html" class="utilities"> Videos </li>
+      </ol>
     </p>
 
-    <img src="minsa.jpg" width="100%">
-    <p style="margin-top:10px;">
-      <span>
-        <strong><u><a href="http://www.minjok.hs.kr/" target="_parent">worst school ever XD</a></u></strong>
-      </span>
-    </p>
   </body>
